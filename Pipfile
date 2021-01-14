@@ -10,6 +10,9 @@ numpy = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 pandas = "*"
+sklearn = "*"
+scikit-learn = "*"
+urllib3 = "*"
 
 [dev-packages]
 
