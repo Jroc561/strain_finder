@@ -5,11 +5,11 @@ name = "pypi"
 
 [packages]
 flask = "*"
-panda = "*"
 joblib = "*"
 numpy = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
+pandas = "*"
 
 [dev-packages]
 
