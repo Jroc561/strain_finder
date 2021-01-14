@@ -1,0 +1,151 @@
+body {
+  font-family: Arial;
+  background-color: #f0e0b9;
+  padding: 50px;
+}
+.login {
+  margin: 25px auto;
+  width: 1000px;
+}
+.login-screen {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.app-title {
+  text-align: center;
+  color: #777;
+}
+
+.login-form {
+  text-align: center;
+}
+.control-group {
+  margin-bottom: 10px;
+}
+.form-group {
+  padding: 1px;
+  width: 100px;
+}
+.form-control {
+  height: 130px;
+  width: 350px;
+  font-size: .9em;
+}
+.form-control::-webkit-scrollbar {
+  width: 15px;
+}
+.form-control::-webkit-scrollbar-track {
+  background: #f0e0b9;
+}
+.form-control::-webkit-scrollbar-thumb {
+  background: #297457;
+}
+
+#container {
+  display: flex;
+}
+#container section {
+  padding: 10px;
+}
+
+.indent-1 {
+  width: 50%;
+}
+.indent-2 {
+  width: 50%;
+}
+
+input {
+  height: 35px;
+  width: 100px;
+  margin-top: 40px;
+  background-color: #297457;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 400px;
+}
+
+/*
+* Formatting the header area
+*/
+header {
+  background-color: #297457;
+  height: 35px;
+  width: 100%;
+  opacity: 0.9;
+  margin: 5px auto;
+  padding: 5px;
+}
+header h1.logo {
+  margin: 2px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+}
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+p {
+  width: auto;
+  margin: 5px auto;
+  word-wrap: break-word;
+}
+/*
+* Centering the body content
+*/
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #e6e6fa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #e6e6fa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+h2 {
+  font-size: 1.5em;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-align: left;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  letter-spacing: -1px;
+  color: #999;
+}
+h4 {
+  font-size: 1em;
+  font-weight: 100;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+}
+.menu {
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline;
+}
+.menu a + a {
+  margin-left: 35px;
+}

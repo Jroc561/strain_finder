@@ -1,0 +1,9 @@
+{% extends "base.html" %} {% block content %}
+<h2>Lambda DS20 - DS21 (TT9)</h2>
+<p>{{ message }}</p>
+<ul>
+  {% for result in results %}
+  <li>{{ result }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
