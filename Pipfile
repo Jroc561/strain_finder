@@ -9,6 +9,7 @@ panda = "*"
 joblib = "*"
 numpy = "*"
 gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
