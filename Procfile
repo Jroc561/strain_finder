@@ -1,0 +1,1 @@
+web: gunicorn strain_finder:APP
